@@ -1,0 +1,12 @@
+sqlite.db
+sqlite.db-journal
+sqlite.db-wal
+sqlite.db-shm
+src-tauri/sqlite.db
+src-tauri/sqlite.db-journal
+src-tauri/sqlite.db-wal
+src-tauri/sqlite.db-shm
+*.db
+*.db-journal
+*.db-wal
+*.db-shm

@@ -1,0 +1,44 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
+  "productName": "bike-pos",
+  "version": "0.1.0",
+  "identifier": "com.bikepos.app",
+  "build": {
+    "frontendDist": "../out",
+    "devUrl": "http://localhost:3005",
+    "beforeDevCommand": "pnpm dev",
+    "beforeBuildCommand": "pnpm build"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "BKM Motors - E-Bike POS & Store Management",
+        "width": 1280,
+        "height": 820,
+        "minWidth": 1024,
+        "minHeight": 700,
+        "resizable": true,
+        "fullscreen": false,
+        "center": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "publisher": "INTEFIG",
+    "copyright": "Copyright © 2026 INTEFIG. All rights reserved.",
+    "shortDescription": "Point of Sale & Inventory Management System for Electric Motorcycles",
+    "longDescription": "Desktop POS, Inventory Intake, Installment Billing, Expense Management, and Customer Ledger System developed by INTEFIG.",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}

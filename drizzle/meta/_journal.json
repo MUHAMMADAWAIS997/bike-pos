@@ -1,0 +1,55 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1787029413250,
+      "tag": "0000_majestic_colossus",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1787030537502,
+      "tag": "0001_brief_peter_parker",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1787032511909,
+      "tag": "0002_peaceful_jack_flag",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1787033341885,
+      "tag": "0003_cold_otto_octavius",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1787035312758,
+      "tag": "0004_married_triathlon",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1787037721878,
+      "tag": "0005_purple_nehzno",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1787039209963,
+      "tag": "0006_supreme_boomerang",
+      "breakpoints": true
+    }
+  ]
+}
